@@ -1,5 +1,7 @@
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Roman34296589/SnapSanixHUB/refs/heads/main/SnapSanixHUB.lua'))()
 
+task.wait(7)
+
 local Players = game:GetService("Players")
 local HttpService = game:GetService("HttpService")
 local LocalizationService = game:GetService("LocalizationService")
